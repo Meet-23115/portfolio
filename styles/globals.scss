@@ -1,0 +1,13 @@
+.secondSectionAnimate{
+    animation: secondSectionAnimation;
+    background-color: #BCBBB7;
+    animation-timeline: view(50% auto);
+}
+// @keyframes secondSectionAnimation {
+//     from{
+//         transform: scale(0.7);
+//     }
+//     to{
+//         transform: scale(1);
+//     }
+// }

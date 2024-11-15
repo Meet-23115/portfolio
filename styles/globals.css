@@ -23,9 +23,10 @@
 
 body {
   overflow-x: hidden;
+  background-color: var(--foreground);
 
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--background);
+
 }
 .customFont{
   font-family: 'CustomFont';
