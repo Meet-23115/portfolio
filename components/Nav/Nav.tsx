@@ -8,8 +8,8 @@ const Nav = () => {
 
           </div>
             <div className='flex w-[200px] justify-around'>
-              <div className=' border border-2 p-2 rounded-[50px] pr-3 pl-3   flex items-center border-white cursor-pointer  text-white hover:bg-black hover:text-white  '>About</div>
-              <div className='border p-2 border-2 rounded-[50px] pr-3 pl-3 flex cursor-pointer items-center border-white border hover:bg-black hover:text-white border-black bg-white text-black  '>Projects</div>
+              <div className='  border-2 p-2 rounded-[50px] pr-3 pl-3   flex items-center border-white cursor-pointer  text-white hover:bg-black hover:text-white  '>About</div>
+              <div className=' p-2 border-2 rounded-[50px] pr-3 pl-3 flex cursor-pointer items-center border-white  hover:bg-black hover:text-white  bg-white text-black  '>Projects</div>
             </div>
         </div>
     </>
