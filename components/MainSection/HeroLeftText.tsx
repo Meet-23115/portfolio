@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroLeftText = () => {
   return (
-    <div className=' text-center h-full  flex items-center justify-center w-1/2'>
+    <div className=' text-center h-full  text-white flex items-center justify-center w-1/2'>
           <div className=' flex flex-col  gap-10 pt-[150px] h-full items-center'>
             <p className=' customFont pl-5  text-5xl'>
               Meet Gelothra

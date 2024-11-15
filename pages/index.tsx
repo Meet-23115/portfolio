@@ -1,20 +1,19 @@
-import Main from '@/components/Hero'
-import Nav from '@/components/Nav'
-import SecondSection from '@/components/SecondSection'
+
+import AboutSection from '@/components/About/AboutSection'
+import MainSection from '@/components/MainSection/MainSection'
+import Nav from '@/components/Nav/Nav'
+import SecondSection from '@/components/SecondSection/SecondSection'
 
 import React from 'react'
 
 const index = () => {
   return (
     <>
-      <Nav/>
-      <div className=' w-screen flex h-[94vh]  pt-[20px]'>
-        <Main/>
-        
-
-
-      </div>
+    <Nav/>
+      <MainSection/>
+      
       <SecondSection/>
+      <AboutSection/>
     </>
 
 
