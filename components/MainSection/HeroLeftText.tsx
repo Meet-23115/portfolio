@@ -8,10 +8,10 @@ const HeroLeftText = () => {
       <motion.div
       initial={{ translateY : "-500px"}}
       animate={{ translateY : "0px" }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 2 }}
       >
 
-      <div className=' flex flex-col  gap-10 pt-[150px] h-full items-center'>
+    <div className=' flex flex-col  gap-10  h-full items-center'>
             <p className=' customFont pl-5  text-5xl'>
               Meet Gelothra
             </p>
