@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { motion } from "framer-motion"; // Correct import
 
 const HeroLeftText = () => {
   return (
     <div className=' text-center h-full  text-white flex items-center justify-center w-1/2'>
-          <div className=' flex flex-col  gap-10 pt-[150px] h-full items-center'>
+
+      <motion.div
+      initial={{ translateY : "-200px"}}
+      animate={{ translateY : "0px" }}
+      transition={{ duration: 1.5 }}
+      >
+
+      <div className=' flex flex-col  gap-10 pt-[150px] h-full items-center'>
             <p className=' customFont pl-5  text-5xl'>
               Meet Gelothra
             </p>
@@ -14,6 +22,9 @@ const HeroLeftText = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla quaerat in provident facilis dolorem placeat aliquam deserunt, architecto itaque earum numquam error ipsum distinctio facere assumenda ipsam quasi quibusdam. A amet iusto porro, maxime cumque at, similique fuga eum aliquid odio expedita obcaecati tenetur, culpa pariatur cum? Ea, tempore.
             </p>
           </div>
+
+      </motion.div>
+          
 
         </div>
   )
