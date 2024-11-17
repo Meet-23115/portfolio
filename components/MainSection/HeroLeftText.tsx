@@ -6,12 +6,12 @@ const HeroLeftText = () => {
     <div className=' text-center h-full  text-white flex items-center justify-center w-1/2'>
 
       <motion.div
-      initial={{ translateY : "-200px"}}
+      initial={{ translateY : "-500px"}}
       animate={{ translateY : "0px" }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 2 }}
       >
 
-      <div className=' flex flex-col  gap-10 pt-[150px] h-full items-center'>
+    <div className=' flex flex-col  gap-10  h-full items-center'>
             <p className=' customFont pl-5  text-5xl'>
               Meet Gelothra
             </p>

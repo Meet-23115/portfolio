@@ -7,7 +7,7 @@ const IphoneImage = () => {
       <motion.div
         initial={{ translateX: "500px" }} // Start with translateX 500px
         animate={{ translateX: "0px" }} // Animate to translateX 0px
-        transition={{ duration: 1.5 }} // Animation duration (3 seconds)
+        transition={{ duration: 2 }} // Animation duration (3 seconds)
       >
         <div className="relative h-[460px] w-[200px]">
           {/* iPhone Image */}
@@ -18,7 +18,12 @@ const IphoneImage = () => {
           />
           <div className="h-full w-full flex pt-3">
             {/* Portfolio Image */}
-            <div className="h-[385px] flex items-end ml-2 w-[180px] rounded-[30px] bg-[#BCBBB7]">
+            <div className="h-[385px] flex-col items-end  ml-2 w-[180px] rounded-[30px] bg-[#BCBBB7]">
+              <div className=' h-1/5  items-end flex w-full'>
+                <div className=' border-t border-black border-b w-full text-center '>
+                  Meet Gelothra
+                </div>
+              </div>
               <img
                 src="/portfolioImage1.png"
                 className="rounded-[20px] h-[80%] w-full object-cover"

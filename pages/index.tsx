@@ -5,7 +5,6 @@ import Nav from '@/components/Nav/Nav'
 import SecondSection from '@/components/SecondSection/SecondSection'
 
 import React from 'react'
-
 const index = () => {
   return (
     <>
