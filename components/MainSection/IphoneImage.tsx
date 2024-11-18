@@ -25,7 +25,7 @@ const IphoneImage = () => {
                 </div>
               </div>
               <img
-                src="/portfolioImage1.png"
+                src="https://res.cloudinary.com/dgvpslg33/image/upload/v1731933420/portfolioImage1_fumuv8.png"
                 className="rounded-[20px] h-[80%] w-full object-cover"
                 alt=""
               />

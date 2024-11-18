@@ -14,7 +14,7 @@ const Nav = () => {
             <div className='flex w-[200px] justify-around'>
 
               <div className='  border-2 p-2 rounded-[50px] pr-3 pl-3   flex items-center border-white cursor-pointer  text-white hover:bg-black hover:text-white  '>About</div>
-              <div className=' p-2 border-2 rounded-[50px] pr-3 pl-3 flex cursor-pointer items-center border-white  hover:bg-black hover:text-white  bg-white text-black  '>Projects</div>
+              <div className=' p-2 border-2 rounded-[50px] pr-3 pl-3 flex cursor-pointer items-center border-[#8a7789]  hover:bg-black hover:text-white  bg-[#8a7789] text-black  '>Projects</div>
             </div>
         </div>
     </>
