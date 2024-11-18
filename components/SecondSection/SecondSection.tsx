@@ -8,7 +8,7 @@ const SecondSection = () => {
       url: "./thghtfy.png",
       text:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque animi facilis consequuntur incidunt iusto, optio iste reiciendis officia maxime voluptatibus maiores laborum magnam ipsam! Fuga deserunt debitis facere velit asperiores. Eaque animi facilis consequuntur incidunt iusto, optio iste reiciendis officia maxime voluptatibus maiores laborum magnam ipsam! Fuga deserunt debitis facere velit asperiores."
     },
-    youtube:{
+    Youtube:{
       url: "./Youtube.png",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque animi facilis consequuntur incidunt iusto, optio iste reiciendis officia maxime voluptatibus maiores laborum magnam ipsam! Fuga deserunt debitis facere velit asperiores."
     }

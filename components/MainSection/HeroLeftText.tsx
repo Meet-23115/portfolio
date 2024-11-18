@@ -15,8 +15,8 @@ const HeroLeftText = () => {
             <p className=' customFont pl-5  text-5xl'>
               Meet Gelothra
             </p>
-            <p className='customFont  text-3xl'>
-              {'=>'} I Am A Web Developer
+            <p className='customFont   text-3xl'>
+             <span className=' text-[#8a7789]'>{'=>'}</span>  I Am A Web Developer
             </p>
             <p className='  pl-[100px] pr-[100px]'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla quaerat in provident facilis dolorem placeat aliquam deserunt, architecto itaque earum numquam error ipsum distinctio facere assumenda ipsam quasi quibusdam. A amet iusto porro, maxime cumque at, similique fuga eum aliquid odio expedita obcaecati tenetur, culpa pariatur cum? Ea, tempore.
