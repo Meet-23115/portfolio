@@ -6,11 +6,11 @@ const SecondSection = () => {
   const options = {
     Thghtfy:{
       url: "./thghtfy.png",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque animi facilis consequuntur incidunt iusto, optio iste reiciendis officia maxime voluptatibus maiores laborum magnam ipsam! Fuga deserunt debitis facere velit asperiores. Eaque animi facilis consequuntur incidunt iusto, optio iste reiciendis officia maxime voluptatibus maiores laborum magnam ipsam! Fuga deserunt debitis facere velit asperiores."
+      text:"This is a social media app created before threads it has the same concept as threads but it was created before threads was launched. This web application is running on a Node.Js server created from scratch completly by me when i was in 12th grade. It uses Firebase Realtime database, Firebase Firestore, Google cloud, Firebase Authentication and many more libraries. All my projects is based on teaching me some new skill this project taught me Node.Js , Firebase, Authenticaiton, and many more libraries.",
     },
     Youtube:{
       url: "./Youtube.png",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque animi facilis consequuntur incidunt iusto, optio iste reiciendis officia maxime voluptatibus maiores laborum magnam ipsam! Fuga deserunt debitis facere velit asperiores."
+      text: "This is a youtube clone. still experimenting with it. The Frontend uses next.js and the backend uses express. It uses MongoDb as database and Jwt and bcrypt for authentication. It uses cloudinary for videos. All my projects is based on teaching me some new skill this project taught me next.js tailwind mongodb and a lot more "
     }
   }
   const [selectedOption, setSelectedOption] = useState<keyof typeof options>("Thghtfy");
