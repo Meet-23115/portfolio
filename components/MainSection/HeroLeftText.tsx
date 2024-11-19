@@ -6,7 +6,7 @@ const HeroLeftText = () => {
     <div className=' text-center h-full  text-white flex items-center justify-center w-1/2'>
 
       <motion.div
-      initial={{ translateY : "-500px"}}
+      initial={{ translateY : "-750px"}}
       animate={{ translateY : "0px" }}
       transition={{ duration: 2 }}
       >
